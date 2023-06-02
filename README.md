@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Class Naming Style
+BEM -> BEM stands for block, element, and modifier. It's a naming convention that divides the user interface into small, reusable components that will prepare us for the changes in design of our websites. This convention also enhances the cross-site copy/paste feature by helping make elements reusable components.
+
 ## Available Scripts
 
 In the project directory, you can run:
