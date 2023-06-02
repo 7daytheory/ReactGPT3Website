@@ -18,10 +18,9 @@ const Header = () => {
             <div className="gpt__header-content__people">
               <img src={people} alt="people" />
             </div>
-
-            <div className="gpt__header-image">
+          </div>
+        <div className="gpt__header-image">
               <img src={ai} alt="Giant AI Head" />
-            </div>
         </div>
     </div>
   )
