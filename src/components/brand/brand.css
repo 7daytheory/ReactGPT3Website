@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.gpt__brand div {
+.gpt__blog div {
     flex: 1;
     max-width: 150px;
     min-width: 120px;
