@@ -1,5 +1,6 @@
 import React from 'react'
 import './features.css'
+import { Feature } from '../../components'
 
 const featuresData = [
   {
@@ -22,14 +23,19 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className="gpt__features section__pading" id="features">
+    <div className="gpt__features section__padding" id="features">
         <div className="gpt__features-heading">
             <h1 className="gradient__text">The future is now and you just need to realize it. Step into the future today & make it happen.</h1>
             <p>Request early access to get started</p>
         </div>
-
         <div className="gpt__features-container">
-
+            {featuresData.map((item, index) => {
+              return (
+              <Feature 
+              title={item.title}
+              text={item.text}
+              key={item.title + index}/>
+            )})}
         </div>
     </div>
   )
