@@ -42,6 +42,10 @@ const Footer = () => {
               <p>contact@domain.com</p>
             </div>
         </div>
+
+        <div className="gpt__footer-copyright">
+            <p>Copyright 2023 Matthew Lowe</p>
+        </div>
     </div>
   )
 }

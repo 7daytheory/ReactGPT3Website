@@ -99,3 +99,16 @@
     margin: 0.5rem 0;
     cursor: pointer;
 }
+
+.gpt__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt__footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFF;
+}
