@@ -20,7 +20,7 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.04em;
-    color: #fff;
+    color: #FFF;
 }
 
 .gpt__features-container__feature-title div {
@@ -31,13 +31,13 @@
     margin-bottom: 0.25rem;
 }
 
-.gpt__features-container_feature-text {
+.gpt__features-container__feature-text {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.gpt__features-container_feature-text p {
+.gpt__features-container__feature-text p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
@@ -60,3 +60,4 @@
         margin: 1rem 0;
     }
 }
+
