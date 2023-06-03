@@ -8,7 +8,7 @@ const Menu = () => {
   return (
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#gpt">What is GPT3?</a></p>
+    <p><a href="#gpt3">What is GPT?</a></p>
     <p><a href="#possibility">Open AI</a></p>
     <p><a href="#features">Features</a></p>
     <p><a href="#library">Library</a></p>
